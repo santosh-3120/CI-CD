@@ -2,7 +2,7 @@ pipeline{
     agent any
     stages{
         stage('Checkout'){
-            git bramch: 'main' ,url: 'https://github/santosh-3120/CI-CD.git'
+            git bramch: 'main' ,url: 'https://github.com/santosh-3120/CI-CD.git'
 
         }
 
